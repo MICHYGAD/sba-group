@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR OFFICES - SBA GROUP</title>
+    <link rel="stylesheet" href="../CSS/office.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <link rel="website icon" type="png" href="../Images/cropped-faviconn-32x32.png">
+</head>
+<body>
+    <!-- PreLoader -->
+    <div id="preloader">
+       <img src="../Images/logo-sba-new.png" alt="SBA Group Logo">
+    </div>
+
+    <!-- Header -->
+<header id="headContent">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html"><img src="../Images/logo-sba-new.png" alt="SBA Group Logo"></a>
+        </div>
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" data-key="home">HOME</a></li>
+                <li><a href="partner.html" data-key="partners">PARTNERS</a></li>
+                <li><a href="product.html" data-key="products">PRODUCTS</a></li>
+                <li><a href="service.html" data-key="services">SERVICES</a></li>
+                <li><a href="office.html" data-key="offices">OUR OFFICES</a></li>
+                <li><a href="contact.html" data-key="contact" id="contact">CONTACT</a></li>
+                <!-- language flags -->
+                <li class="language-switcher">
+                    <img src="../Images/en.png" alt="English" class="flag" data-lang="en">
+                    <img src="../Images/fr.png" alt="Français" class="flag" data-lang="fr">
+                </li>
+            </ul>
+
+ <div class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    </div>
+        </nav>
+    </div>
+    </header>
+    <!-- END OF HEADER -->
+
+
+    <main class="office-locator" aria-label="Our offices in Africa">
+      <section class="office-panel">
+        <h2 data-key="our-offices">OUR OFFICES</h2>
+
+        <div class="office-grid" role="list">
+          <article
+            class="office-card"
+            data-country="NG"
+            role="listitem"
+            tabindex="0"
+          >
+            <div class="flag" aria-hidden="true">🇳🇬</div>
+            <div class="office-details">
+              <div class="office-name">SBA — Nigeria</div>
+              <div>7, Oba Akinjobi Way, Ikeja<br />GRA — Lagos</div>
+              <div style="margin-top: 0.5rem">
+                <strong>Tel:</strong> +234 815 839 1577<br />
+                +234 909 033 3774
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="office-card"
+            data-country="CI"
+            role="listitem"
+            tabindex="0"
+          >
+            <div class="flag" aria-hidden="true">🇨🇮</div>
+            <div class="office-details">
+              <div class="office-name">SBA — Côte d'Ivoire</div>
+              <div>Rue Paul Langevin<br />Abidjan</div>
+              <div style="margin-top: 0.5rem">
+                <strong>Tel:</strong> +225 27 21 72 74 96
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="office-card"
+            data-country="KE"
+            role="listitem"
+            tabindex="0"
+          >
+            <div class="flag" aria-hidden="true">🇰🇪</div>
+            <div class="office-details">
+              <div class="office-name">SBA — Kenya</div>
+              <div>
+                Westside Towers, 7th Floor<br />Lower Kabete Road<br />Nairobi,
+                Kenya
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="office-card"
+            data-country="AO"
+            role="listitem"
+            tabindex="0"
+          >
+            <div class="flag" aria-hidden="true">🇦🇴</div>
+            <div class="office-details">
+              <div class="office-name">SBA — Angola</div>
+              <div>Bairro Benfica Gleba Gu 11<br />Luanda</div>
+            </div>
+          </article>
+
+          <article
+            class="office-card"
+            data-country="CG"
+            role="listitem"
+            tabindex="0"
+          >
+            <div class="flag" aria-hidden="true">🇨🇬</div>
+            <div class="office-details">
+              <div class="office-name">SBA — Congo</div>
+              <div>Quartier Batignolles<br />Brazzaville</div>
+            </div>
+          </article>
+
+          <article
+            class="office-card"
+            data-country="CD"
+            role="listitem"
+            tabindex="0"
+          >
+            <div class="flag" aria-hidden="true">🇨🇩</div>
+            <div class="office-details">
+              <div class="office-name">SBA — RDC</div>
+              <div>
+                11 Avenue Mbandaka<br />Commune de Ngalimea<br />Kinshasa
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="map-panel" aria-label="Africa office map">
+        <div id="map" style="height: 100%; width: 100%"></div>
+        <div class="map-credit">Interactive Office Map</div>
+      </section>
+    </main>
+
+
+
+    <!-- FOOTER -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3 data-key="contact-info">CONTACT INFORMATION</h3>
+            <p><i class="bi bi-geo-alt"></i> <span data-key="address">7, Oba Akinjobi Way, Ikeja GRA - Lagos.</span></p>
+            <p><i class="bi bi-telephone"></i> <span data-key="phone">+234 815 839 1577,
++234 909 033 3774</span></p>
+            <p><i class="bi bi-envelope"></i> <span data-key="email">xxxxx@mail.com</span></p>
+        </div>
+
+        <div class="footer-section">
+            <h3 data-key="follow-us">FOLLOW US</h3>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <div class="footer-section">
+            <h3 data-key="quick-links">QUICK LINKS</h3> 
+            <a href="index.html" data-key="home">HOME</a>
+            <a href="partner.html" data-key="partners">PARTNERS</a>
+            <a href="product.html" data-key="products">PRODUCTS</a>
+            <a href="service.html" data-key="services">SERVICES</a> 
+            <a href="office.html" data-key="offices">OUR OFFICES</a>
+            <a href="contact.html" data-key="contact">CONTACT</a>
+        </div>
+
+        <div class="footer-section">
+            <h3 data-key="newsletter">NEWSLETTER</h3>
+            <p data-key="newsletter-text">Subscribe to our newsletter for the latest updates.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" data-key="newsletter-placeholder" required>
+                <button type="submit" data-key="subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p data-key="copyright">&copy; 2026 SBA GROUP. All RIGHTS RESERVED.</p>
+        <p><strong data-key="developed-by">developed</strong> by <a href="#" target="_blank"><strong>codewithmichy & danielstech</strong></a></p>
+    </div>
+</footer>
+<!-- END OF FOOTER -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="../JavaScript/script.js"></script>
+ </body>
+ </html>
