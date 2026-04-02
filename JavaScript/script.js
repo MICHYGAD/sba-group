@@ -5,6 +5,7 @@ function fixOverflowAndSticky() {
     document.documentElement.style.width = '100%';
     document.body.style.width = '100%';
 }
+window.addEventListener('load', fixOverflowAndSticky);
 
 
 // Nav Bar
