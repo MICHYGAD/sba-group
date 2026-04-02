@@ -5,8 +5,9 @@ html {
   overflow-x: clip;
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
+  position: sticky;
 }
 
 @media (max-width: 480px) {
@@ -225,7 +226,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    max-width: 100%;
+    width: 100%;
     height: 150%;
     object-fit: cover;
     z-index: 1;
