@@ -1,3 +1,12 @@
+function fixOverflowAndSticky() {
+    // Re-apply the styles that prevent horizontal scroll
+    document.documentElement.style.overflowX = 'clip';
+    document.body.style.overflowX = 'clip';
+    document.documentElement.style.width = '100%';
+    document.body.style.width = '100%';
+}
+
+
 // Nav Bar
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav-links");
