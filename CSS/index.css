@@ -1,8 +1,12 @@
-html {
+html, body {
   /* overflow-y: scroll;
   overflow-x: hidden; */
   scroll-behavior: smooth;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 /* 
 @media (max-width: 480px) {
